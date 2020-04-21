@@ -107,6 +107,8 @@ hr {
     background-color: rgb(62, 172, 230);
     bottom: 0;
     position: fixed;
+    display: flex;
+    justify-content: space-evenly; 
 }
 
 .header_logo {
@@ -141,7 +143,103 @@ hr {
     margin-right: 20px;
 }
 
+.account-name {
+    font-weight: bold;
+}
+
 .downarrow-icon { 
     height: 10px;
     margin-left: 12px;
+}
+
+.footer-sitemap {
+    display: flex; 
+    flex-direction: column;
+    margin-left: -20%;
+    margin-top: 0.5%; 
+}
+
+.footer-sitemap-content {
+    margin: 0px;
+    font-size: 12.5pt;
+    font-weight: bold;
+    margin: 2px 0px 2px 0px; 
+}
+
+.footer-sitemap-line {
+    width: 150%; 
+    border: 1px solid black; 
+    margin: -12px 0px 10px 0px;
+}
+
+#footer-learnmore {
+    position: relative; 
+    margin-left: -15%;
+    margin-top: 0.5%; 
+}
+
+.footer-learnmore-content {
+    margin: 2px 0px 2px 0px; 
+    font-size: 12.5pt; 
+    font-weight: bold; 
+}
+
+.footer-learnmore-line {
+    width: 190%; 
+    border: 1px solid black;
+    margin: -12px 0px 10px 0px; 
+}
+
+#footer-middle-logo {
+    width: 180px; 
+    margin-left: 20%;
+}
+
+#footer-middle {
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+}
+
+#copyright-text {
+    font-size: 10.5pt;
+    font-weight: bold; 
+    margin-top: 10%;
+}
+
+#footer-social-media {
+    margin-right: -20%;
+    margin-top: 2.5%;
+}
+
+.social-media-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#snapchat-icon {
+    height: 30px;
+    margin: 10px;
+}
+
+#instagram-icon {
+    height: 30px;
+    margin: 5px;
+}
+
+#twitter-icon {
+    height: 45px;
+    margin: 5px;
+}
+
+#facebook-icon {
+    height: 27px;
+    margin: 5px;
+}
+
+#footer-social-media-text {
+    font-weight: bold; 
+    margin-bottom: -2%; 
 }
