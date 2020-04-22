@@ -21,12 +21,34 @@ body {
 
 .side-nav {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
     height: 185px;
     width: 65px;
     background-color: white;
     box-shadow: 0px 0px 10px rgb(197, 197, 197);
     border-radius: 5px;
     margin: 0 40px 0 0;
+}
+
+.note-icon:hover{
+    filter: invert(49%) sepia(35%) saturate(6789%) hue-rotate(319deg) brightness(96%) contrast(96%);
+    transform: scale(1.2);
+}
+
+.todo-icon:hover{
+    filter: invert(58%) sepia(90%) saturate(966%) hue-rotate(116deg) brightness(97%) contrast(95%);
+    transform: scale(1.2);
+}
+
+.link-icon:hover{
+    filter: invert(68%) sepia(16%) saturate(5900%) hue-rotate(171deg) brightness(96%) contrast(88%);
+    transform: scale(1.2);
+}
+
+.image-icon:hover{
+    filter: invert(89%) sepia(64%) saturate(983%) hue-rotate(310deg) brightness(105%) contrast(106%);
+    transform: scale(1.2);
 }
 
 .categories-nav {
