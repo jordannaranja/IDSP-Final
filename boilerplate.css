@@ -75,6 +75,17 @@ body {
     position: absolute;
 }
 
+.content-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.date-created{
+    font-size: 14px;
+    line-height: 10px;
+}
+
 .rectangle {
     background-color: rgb(239, 71, 111);
     width: 10px;
@@ -121,6 +132,15 @@ hr {
     box-shadow: 0px 0px 10px rgb(197, 197, 197);
     border-radius: 5px;
     margin: 0 10px 0 10px;
+}
+
+#space-around-content{
+    margin: 40px 20px;
+}
+
+.content-text{
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 .bottom-banner {
