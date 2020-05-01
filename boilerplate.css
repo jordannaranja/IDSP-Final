@@ -321,6 +321,7 @@ hr {
 /* the beginning of the responsive layout  */
 @media (max-width: 375px) {
 
+
     body {
         margin: 0;
         background-color: rgb(240, 240, 240);
